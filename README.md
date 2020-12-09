@@ -1,4 +1,4 @@
-# HummusJS
+# HummusJS (Freetype 2.8)
 
 [![NPM version](http://img.shields.io/npm/v/hummus.svg?style=flat)](https://www.npmjs.com/package/hummus-freetype28)
 
