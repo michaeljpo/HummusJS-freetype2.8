@@ -1,0 +1,56 @@
+{
+  "name": "hummus-freetype28",
+  "version": "1.1.1",
+  "description": "HummusJS with freetype updated to 2.8",
+  "homepage": "http://pdfhummus.com/",
+  "license": "Apache-2.0",
+  "author": "Gal Kahana <gal.kahana@hotmail.com>",
+  "main": "./hummus.js",
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build $EXTRA_NODE_PRE_GYP_FLAGS",
+    "test": "mocha -R tap ./tests/*.js --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/galkahana/HummusJS.git"
+  },
+  "keywords": [
+    "pdf",
+    "pdfhummus"
+  ],
+  "files": [
+    "src",
+    "hummus.js",
+    "binding.gyp",
+    "PDFRStreamForFile.js",
+    "PDFStreamForResponse.js",
+    "PDFWStreamForFile.js",
+    "PDFRStreamForBuffer.js",
+    "PDFWStreamForBuffer.js",
+    "DocFlatPDF.js",
+    "FormFillerPDF.js"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-pre-gyp": "^0.10.0"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "devDependencies": {
+    "aws-sdk": "~2.0.0-rc.15",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "npm": "^5.8.0"
+  },
+  "binary": {
+    "module_name": "hummus",
+    "module_path": "./binding",
+    "remote_path": "./hummus/v1.0.108/{toolset}/",
+    "host": "https://hummus.s3-us-west-2.amazonaws.com",
+    "package_name": "{node_abi}-{platform}-{arch}-{libc}.tar.gz"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
