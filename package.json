@@ -2,7 +2,6 @@
   "name": "hummus-freetype28",
   "version": "1.1.1",
   "description": "HummusJS with freetype updated to 2.8",
-  "homepage": "http://pdfhummus.com/",
   "license": "Apache-2.0",
   "author": "Gal Kahana <gal.kahana@hotmail.com>",
   "main": "./hummus.js",
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/galkahana/HummusJS.git"
+    "url": "https://github.com/michaeljpo/HummusJS-freetype2.8"
   },
   "keywords": [
     "pdf",
