@@ -1,13 +1,22 @@
 # HummusJS
 
-[![NPM version](http://img.shields.io/npm/v/hummus.svg?style=flat)](https://www.npmjs.org/package/hummus)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=Z4A979AJEZLMC&lc=GB&item_name=PDFHummus&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
+[![NPM version](http://img.shields.io/npm/v/hummus.svg?style=flat)](https://www.npmjs.com/package/hummus-freetype28)
 
 **About this package:**  
 This is the same version of HummusJS package, but with freetype updated to version 2.8. [Original package](https://www.npmjs.com/package/hummus)
 
-It also includes lodash to support FormFiller and FlatDocs methods both implemented by Galkahana.
+It also includes lodash to support FormFiller and FlatDocs methods both implemented by Galkahana. Example:
 
+```
+import hummus from 'hummus-freetype28/hummus';
+
+const flatDoc = hummus.DocFlatPDF;
+const fillForm = hummus.FormFillerPDF;
+await flatDoc(writer);
+```
+
+
+**Original README:**  
 Welcome to HummusJS.  
 A Fast NodeJS Module for Creating, Parsing an Manipulating PDF Files and Streams.  
 Documentation is available [here](https://github.com/galkahana/HummusJS/wiki).  
