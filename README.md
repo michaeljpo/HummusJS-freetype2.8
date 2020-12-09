@@ -1,6 +1,6 @@
 # HummusJS (Freetype 2.8)
 
-[![NPM version](http://img.shields.io/npm/v/hummus.svg?style=flat)](https://www.npmjs.com/package/hummus-freetype28)
+[![NPM version](http://img.shields.io/npm/v/hummus-freetype28.svg?style=flat)](https://www.npmjs.com/package/hummus-freetype28)
 
 **About this package:**  
 This is the same version of HummusJS package, but with freetype updated to version 2.8. [Original package](https://www.npmjs.com/package/hummus)
